@@ -1,24 +1,25 @@
 import fotoHomePage from "../../Assets/fotoHomePage.png"
-import whatsappLogo from "../../Assets/whatsappLogo.png"
-import { StyledInsta } from "../../Components/Header/StyledHeader"
+import { Section1 } from "../../Components/Sections/Section1/Section1"
+import { Section2 } from "../../Components/Sections/Section2/Section2"
+import { Section3 } from "../../Components/Sections/Section3/Section3"
+import { Section4 } from "../../Components/Sections/Section4/Section4"
+import { Section5 } from "../../Components/Sections/Section5/Section5"
 
 
-import { StyledCallButton, StyledFotoHomePage, StyledInfo, StyledMain, StyledP, StyledTitle, StyledWhats } from "./StyledHomePage"
-
+import { StyledMain, StyledPictureHomePage } from "./StyledHomePage"
+ 
 
 export const HomePage = () => {
+
+
     return (
         <StyledMain>
-            <StyledFotoHomePage src={fotoHomePage} />
-            <StyledInfo>
-                <StyledTitle>Há mais de 30 anos transformando famílias e sorrisos</StyledTitle>
-                <div>
-                    <StyledCallButton>
-                        <StyledWhats src={whatsappLogo} />
-                        <StyledP>Agende uma consulta</StyledP>                    
-                        </StyledCallButton>
-                </div>
-            </StyledInfo>
+            <Section1/>
+            <Section2/>
+            <Section3/>
+            <Section4/>
+            <Section5/>
+            {/* <StyledPictureHomePage src={fotoHomePage} /> */}
         </StyledMain>
     )
 } 
