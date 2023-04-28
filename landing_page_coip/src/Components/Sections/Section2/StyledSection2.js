@@ -3,17 +3,23 @@ import styled from "styled-components";
 
 export const StyledSection2 = styled.div`
 display: flex;
+flex-direction: column;
+/* flex-wrap: wrap; */
 background-color: #b3d143;
-padding: 70px 80px;
+padding: 3vw 80px;
 align-items: center;
 margin-top: -4px;
+align-items: flex-start;
 `
 
 export const StyledInfoSection2 = styled.div`
+gap: 5vw;
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
-flex-direction: column;
-padding-right: 100px;
+/* align-items: center; */
+flex-direction: row;
+/* padding-right: 100px; */
 `
 
 export const StyledTitleSection2 = styled.p`
@@ -27,9 +33,10 @@ width: 500px;
 `
 
 export const StyledPictureSection2 = styled.img`
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
     border-radius: 10px;
+    align-self: center;
 `
 // export const StyledTextBackGround = styled.div`
 // position: absolute;
@@ -42,13 +49,14 @@ export const StyledPictureSection2 = styled.img`
 // `
 
 export const StyledTextSection2 = styled.p`
+width: 40vw;
 position: relative;
 color: #503521;
 font-size: 24px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); */
 background-color: #ffebdd;
-padding: 20px;
+padding: 2vw;
 border-radius: 10px;
 box-shadow: 10px 10px;
 `

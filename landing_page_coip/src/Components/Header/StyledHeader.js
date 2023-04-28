@@ -6,6 +6,7 @@ export const StyledHeader = styled.div`
     align-items: center;
     background-color: white;
     height: 17vh;
+    width: 100vw;
 
 `
 

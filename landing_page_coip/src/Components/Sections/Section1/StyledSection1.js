@@ -13,8 +13,8 @@ display: flex;
 flex-direction: column;
 position: absolute;
 top: 2%;
-right: 55%;
-margin-left: 80px;
+/* right: 55%; */
+margin-left: 10vw;
 `
 export const StyledWhats = styled.img`
     width: 25px;
@@ -25,7 +25,7 @@ export const StyledWhats = styled.img`
 export const StyledTitle = styled.p`
 color: white;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-
+width: 55vw;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-weight: 800;
 font-size: 50px;

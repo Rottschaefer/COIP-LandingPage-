@@ -1,29 +1,27 @@
 import styled from "styled-components";
 
 
-
-
 export const StyledSection3 = styled.div`
 display: flex;
 position: relative;
-/* align-items: start; */
+align-items: space-around;
 /* flex-wrap: wrap; */
 flex-direction: column;
-justify-content: space-around;
+justify-content: flex-start;
 background-color: #24b7f1;
-height: 40vh;
-padding: 80px;
+height: 45vh;
+padding: 0px 80px;
 
 transition: all 2s;
 
 &:hover{
-  height: 100vh;
-}
+  height: 70vh;
+} 
 
 `
 export const StyledTitleSection3 = styled.p`
-position: absolute;
-top: 0%;
+/* position: absolute;
+top: 0%; */
 color: white;
 align-self: center;
 margin-bottom: 00px;
@@ -32,19 +30,30 @@ font-weight: 700;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 z-index: 1;
+`
 
+export const StyledText = styled.p`
+color: white;
+text-shadow: 1px 1px black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+font-weight: 600;
+align-self: center;
+z-index: 1;
 `
 
 export const StyledTeamInfoSection = styled.div`
 z-index: 0;
-position: relative;
-top: 10%;
+/* position: relative;
+top: 0%; */
 display: flex;
 flex-wrap: wrap;
 /* flex-direction: column; */
 justify-content: space-around;
 background-color: #24b7f1;
 height: 100vh;
-padding: 80px;
+/* width: 100vw; */
+margin-top: 20px;
+/* padding-left: 100px; */
 `
 
