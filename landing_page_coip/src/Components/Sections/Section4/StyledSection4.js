@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const StyledSection4 = styled.div`
-background-color: #f36679;
-height: auto;
+background-color: #24b7f1;
+height: 30vh;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 60px;
+/* padding: 60px; */
 `
 
 

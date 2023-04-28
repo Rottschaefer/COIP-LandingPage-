@@ -55,14 +55,14 @@ export const One = styled.img`
 grid-column: 1/2;
 grid-row: 1/2;
 width: 100%;
-height: 324px;
+height: 23.9vw;
 object-fit: cover;
 
 transition: all 0.5s;
 
 &:hover{
-    width: 180px;
-    height: auto;
+    width: auto;
+    height: 27vw;
     z-index: 2;
 }
 
@@ -72,13 +72,14 @@ export const Two = styled.img`
 grid-column: 2/5;
 grid-row: 1/2;
 width: 100%;
+height: 23.9vw;
 
 transition: all 0.5s;
 
 
 &:hover{
-    width: 540px;
-    height: auto;
+    width: auto;
+    height: 27vw;
     z-index: 2;
 }
 `
@@ -87,13 +88,15 @@ export const Three = styled.img`
 grid-column: 5/8;
 grid-row: 1/2;
 width: 100%;
+height: 23.9vw;
+
 
 transition: all 0.5s;
 
 &:hover{
-    width:540px;
-    height: auto;
-    padding-right: 100px;
+    width: auto;
+    height: 27vw;
+    /* padding-right: 100px; */
     z-index: 2;
 }
 `
@@ -102,13 +105,15 @@ export const Four = styled.img`
 grid-column: 1/3;
 grid-row: 2/3;
 width: 100%;
+height: 23.9vw;
+
 
 transition: all 0.5s;
 
 
 &:hover{
-    width: 360px;
-    height: auto;
+    width: auto;
+    height: 27vw;
     z-index: 2;
 }
 `
@@ -117,12 +122,14 @@ export const Five = styled.img`
 grid-column: 3/6;
 grid-row: 2/3;
 width: 100%;
+height: 23.9vw;
+
 
 transition: all 0.5s;
 
 &:hover{
-    width: 540px;
-    height: auto;
+    width: auto;
+    height: 27vw;
     z-index: 2;
 }
 `
@@ -131,12 +138,14 @@ export const Six = styled.img`
 grid-column: 6/8;
 grid-row: 2/3;
 width: 100%;
+height: 23.9vw;
+
 
 transition: all 0.5s;
 
 &:hover{
-    width: 360px;
-    height: auto;
+    width: auto;
+    height: 27vw;
     z-index: 2;
 }
 `
@@ -144,13 +153,15 @@ export const Seven = styled.img`
 grid-column: 1/4;
 grid-row: 3/4;
 width: 100%;
+height: 23.9vw;
+
 
 transition: all 0.5s;
 
 
 &:hover{
-    width: 540px;
-    height: auto;
+    width: auto;
+    height: 27vw;
     z-index: 2;
 }
 `
@@ -159,13 +170,15 @@ export const Eight = styled.img`
 grid-column: 4/8;
 grid-row: 3/4;
 width: 100%;
+height: 23.9vw;
+
 
 transition: all 0.5s;
 
 
 &:hover{
-    width: 700px;
-    height: auto;
+    width: auto;
+    height: 27vw;
     z-index: 2;
 }
 `
