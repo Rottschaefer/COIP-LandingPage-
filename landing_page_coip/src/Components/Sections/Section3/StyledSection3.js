@@ -9,13 +9,13 @@ align-items: space-around;
 flex-direction: column;
 justify-content: flex-start;
 background-color: #24b7f1;
-height: 45vh;
+height: 50vh;
 padding: 0px 80px;
 
 transition: all 2s;
 
 &:hover{
-  height: 70vh;
+  height: 66vh;
 } 
 
 `
@@ -33,7 +33,9 @@ z-index: 1;
 `
 
 export const StyledText = styled.p`
+text-align: center;
 color: white;
+display: flex;
 text-shadow: 1px 1px black;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 20px;

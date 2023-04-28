@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const StyledSection4 = styled.div`
 background-color: #24b7f1;
-height: 30vh;
+height: 25vw;
 display: flex;
 flex-direction: column;
 align-items: center;
 /* padding: 60px; */
+padding-top: 80px;
 `
 
 
