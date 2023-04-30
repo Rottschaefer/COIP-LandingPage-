@@ -46,16 +46,11 @@ z-index: 1;
 
 export const StyledTeamInfoSection = styled.div`
 z-index: 0;
-/* position: relative;
-top: 0%; */
 display: flex;
-flex-wrap: wrap;
-/* flex-direction: column; */
 justify-content: space-around;
 background-color: #24b7f1;
 height: 100vh;
-/* width: 100vw; */
 margin-top: 20px;
-/* padding-left: 100px; */
+gap: 40px;
 `
 
