@@ -11,7 +11,7 @@ export const Section3 = () => {
     return (
         <StyledSection3>
             <StyledTitleSection3>Conheça nosso time!</StyledTitleSection3>
-            <StyledText>Passe o mouse por cima da foto para conhecer mais sobre cada profissional!</StyledText>
+            <StyledText>Clique na foto para conhecer mais sobre cada profissional!</StyledText>
             <StyledTeamInfoSection>
                 {team.map((worker) => {
                     return (
